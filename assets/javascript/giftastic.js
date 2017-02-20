@@ -91,14 +91,13 @@ $("#submit-animal").on("click", function(){
 
 	//Get user input
 	var movie = $("#animal-name").val().trim();
-	
 
 	// If user input a alue append to the animal list array and render the butons
 	if(movie){
 		animalList.push(movie);
 		renderButton();
 	}	
-	
+
 	// Clear the input field after rendering
 	$("#animal-name").val("");
 });

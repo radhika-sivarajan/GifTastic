@@ -105,4 +105,5 @@ $(document).on("click", ".animals-btn", displayAnimals);
 // When click on any of image displayed, call animateAnimals function to animate
 $(document).on("click", ".animal-img", animateAnimals);
 
+// Render button for each animal on page load
 renderButton();

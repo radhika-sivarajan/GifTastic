@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Animals";
+  src: url(animal.ttf) format("truetype");
+}
+
+body{
+  background-image: url("../images/bamboo.jpg");
+}
+
+.row {
+	
+}
+
+.title h1{
+font-family: "Animals", sans-serif;
+font-size: 100px;
+}
+
+.list-animal{
+
+}
+
+.image-section{
+
+}
+
+.search-box{
+	background: #baea94;
+    border: 5px double #e6f5d1;
+    padding: 20px;
+
+}
+.animals {
+	margin: 3px; 
+	background-color: #3c763d;
+    border-color: #1b461c;
+}
+
+.animal-img{
+	width: 200px;
+	height: 100px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.image-section{
+	padding: 20px;
+	border-style: solid;
+	border-width: 0 14px;
+	-moz-border-image: url(../images/separator.png) 32 55 repeat;
+	-webkit-border-image: url(../images/separator.png) 32 55 repeat;
+	-o-border-image: url(../images/separator.png) 32 55 repeat;
+	border-image: url(../images/separator.png) 32 55 repeat;
+
+}
+.list-animal{
+	/*border: 1px solid grey;*/
+	padding: 20px;
+	margin-bottom: 20px;
+}
+footer { 
+	margin-top: 10px;
+}

@@ -84,7 +84,7 @@ function animateAnimals(){
 
 }
 
-// On submtitig new animal name add to the animal list
+// On submiting new animal name, add it to the animal list
 $("#submit-animal").on("click", function(){
 
 	//Get user input

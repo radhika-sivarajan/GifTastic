@@ -87,8 +87,6 @@ function animateAnimals(){
 // On submtitig new animal name add to the animal list
 $("#submit-animal").on("click", function(){
 
-	event.preventDefault();
-
 	//Get user input
 	var movie = $("#animal-name").val().trim();
 

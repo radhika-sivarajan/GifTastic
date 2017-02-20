@@ -17,7 +17,6 @@ body{
 	-webkit-animation-duration: 20s;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-timing-function: linear;
-
 }
 
 @-webkit-keyframes masked-animation {
@@ -29,12 +28,14 @@ body{
 	height: 100px; 
 }
 
-.list-animal{
-
-}
-
-.image-section{
-
+.image-section h4{
+	padding: 20px 0;
+    font-size: 140%;
+    text-align: center;
+    color: #fff;
+    margin: -20px -20px 20px -20px;
+    background: #7c6f13; 
+    border-radius: 50%;
 }
 
 .search-box{
@@ -42,9 +43,11 @@ body{
     border: 5px double #e6f5d1;
     padding: 20px;
 }
+
 input[type=text]{
 	margin-bottom: 5px; 
 }
+
 .animals, .submit {
 	margin: 5px 3px; 
 	background-color: #3c763d;

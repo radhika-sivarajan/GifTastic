@@ -25,7 +25,7 @@ function displayAnimals(){
 
 	//Get the name of animal from the button clicked and add to the URL
 	var animalName = $(this).attr("data-name");
-	var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + animalName + "&api_key=dc6zaTOxFJmzC&limit=12";
+	var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + animalName + "&api_key=dc6zaTOxFJmzC&limit=12";
 	
 	// Ajax call
 	$.ajax({

@@ -5,6 +5,7 @@
 
 body{
   background-image: url("../images/bamboo.jpg");
+  background-size: cover;
 }
 
 .title h1{
@@ -28,42 +29,15 @@ body{
 	height: 100px; 
 }
 
-.image-section h4{
-	padding: 20px 0;
-    font-size: 140%;
-    text-align: center;
-    color: #fff;
-    margin: -20px -20px 20px -20px;
-    background: #7c6f13; 
-    border-radius: 50%;
-}
-
-.search-box{
+.list-animal{
+	padding: 20px;
 	background: #baea94;
-    border: 5px double #e6f5d1;
-    padding: 20px;
-}
-
-input[type=text]{
-	margin-bottom: 5px; 
-}
-
-.animals, .submit {
-	margin: 5px 3px; 
-	background-color: #3c763d;
-    border-color: #1b461c;
-}
-
-.animal-img{
-	width: 200px;
-	height: 100px;
-	margin-left: 30px;
-	margin-bottom: 30px;
-	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: 5px solid #d6eec5;
 }
 
 .image-section{
 	padding: 20px;
+	margin-top: 30px;
 	border-style: solid;
 	border-width: 0 14px;
 	-moz-border-image: url(../images/separator.png) 32 55 repeat;
@@ -72,14 +46,47 @@ input[type=text]{
 	border-image: url(../images/separator.png) 32 55 repeat;
 }
 
-.list-animal{
-	/*border: 1px solid grey;*/
-	padding: 20px;
-	margin-bottom: 20px;
-	background: #baea94;
-    border: 5px solid #d6eec5;
+.image-section h4{
+	padding: 20px 0;
+    font-size: 140%;
+    text-align: center;
+    color: #fff;
+    margin: -20px auto 20px auto;
+    background: #7c6f13;
+    border-radius: 50%;
+    border: 5px double;
+    width: 60%;
+}
+
+#animal-images {
+	font-family: 'Krona One', serif;
+}
+
+.animal-img{
+	width: 200px;
+	height: 100px;
+	margin-left: 30px;
+	margin-top: 20px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.search-box{
+	background: #d8ee99;
+    border: 5px double #edf7d1;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+input[type=text]{
+	margin-bottom: 5px; 
+}
+
+.animals-btn, .submit-btn {
+	margin: 5px 3px; 
+	background-color: #3c763d;
+    border-color: #1b461c;
 }
 
 footer { 
-	margin-top: 10px;
+	margin-top: 20px;
 }

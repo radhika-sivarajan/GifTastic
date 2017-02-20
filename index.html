@@ -12,33 +12,43 @@
 	<!-- Bootstrap CDN link. -->
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
+  	<!-- Google fonts -->
+  	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Krona One">
+
 	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 
 </head>
 <body>
 	<div class="container">
+
+		<!-- Header of the webpage -->
 		<div class="row title">
 			<h1 class="pull-left">Animals GIF Collection</h1>
 			<img class="header-img" src="assets/images/birds.gif">
 			<img class="header-img" src="assets/images/spider.gif">
-
 		</div>
-		<div class="row list-animal">			
-	 		<h4>Animal list</h4>
+
+		<!-- Buttons for animal rendered here -->
+		<div class="row list-animal">	
 	        <div id="animal-list"></div>		   
 		</div>
-
+		
 		<div class="row">
-			<div class="col-md-8 image-section">
+
+			<!-- Animal images displayed here -->
+			<div class="col-md-8 image-section clearfix">
 				<h4>Images</h4>
-		    	<div class="text-center" id="animal-images">Click on animal to see</div><hr>
+		    	<div class="text-center" id="animal-images">Click on animal button to see the pictures</div><hr>
 			</div>
+
+			<!-- User input box to take new animal name -->
 			<div class="col-md-3 col-md-offset-1 text-center search-box">
 				<h5>Add an animal</h5>
 				<input type="text" id="animal-name"><br>
-				<button type="button" id="submit-animal" class="btn btn-primary submit">Submit</button>
+				<button type="button" id="submit-animal" class="btn btn-primary submit-btn">Submit</button>
 			</div>		
 		</div>
+
 		<footer class="row text-right">
 			<p>Copyright &copy; 2017 Radhika Sivarajan</p>
 		</footer>

@@ -9,7 +9,6 @@ function renderButton() {
 
 	//Loop through each array element, create button for each of them, set values and attributes accordingly
 	for (var i = 0; i < animalList.length; i++) {
-
 		var btn = $("<button class='btn btn-primary'>");
 
 		btn.addClass("animals-btn");
